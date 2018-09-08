@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { getEvent, deleteEvent, putEvent } from '../actions'
+import { deleteEvent} from '../actions'
 import { Field, reduxForm } from 'redux-form'
 import { Link } from 'react-router-dom'
 
